@@ -1,0 +1,67 @@
+.logoText{
+    font-family: 'Brush Script MT';
+    font-size: xx-large;
+    
+    background: -webkit-linear-gradient(#eee,rgb(29, 3, 88));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent; 
+}
+
+.btn-blue {
+    background-color: #221DB8;
+    color: #fff;
+    width: 100%;
+}
+
+.btn-blue:hover {
+    background-color: rgb(20, 18, 153);
+    color: #fff;
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #221DB8;
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+        width: 600px;
+        height: 220px
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        
+        margin: 20px 15px
+    }
+}
+
+
+
+.login-container > *:first-child{
+    width: 35%;
+}
+.login-container > *:last-child{
+    width: 50%;
+}
+@media screen and (max-width: 576px){
+    .login-container{
+        flex-direction: column;
+    }
+    .login-container > *:first-child h6{
+        font-size: 10vw!important;
+    }
+    .login-container > *:first-child{
+        width: 70%;
+    }
+    .login-container > *:last-child{
+        width: 100%;
+    }
+}
